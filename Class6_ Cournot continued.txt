@@ -1,0 +1,86 @@
+#Cournot
+
+We found last time the best response functions for each firm
+
+>$$q_1(q_2)=\frac{a-bq_2-c}{2b}=\frac{a-c}{2b}-\frac{1}{2}q_2$$
+> $$q_2(q_1)=\frac{a-c}{2b}-\frac{1}{2}q_1$$
+
+In equilibrium each firm has to choose a quantity that is a best response to its rival. After plugging one reaction function into the other we get
+
+>$$q_1^*=\frac{a-c}{3b}=q_2^*$$
+
+So the total quantity produced under duopoly is $$ which is clearly higher than under monopoly () but smaller than under competition ($Q^*=\frac{a-c}{b}$). 
+
+![enter image description here](https://lh3.googleusercontent.com/DsYUjDzIo6f0UMKTiaFlFz5UOXHpSzZ4E7EyleGqxHTq=s0 "IMG_20150526_163519~2.jpg")
+
+|Structure|Quantiy|Price|
+|:-----|:-------|:----|
+|Competition|$\frac{a-c}{b}$|$c$|
+|Duopoly|$\frac{2(a-c)}{3b}$|$\frac{a+2c}{3}$|
+|Monopoly|$\frac{a-c}{2b}$|$\frac{a+c}{2}$|
+
+So the simple Cournot Duopoly gives us an interesting insight: The equilibrium quantity in a market seems to be increasing in  the number of firms. But are the insights generalizable to the case when $n$ firms compete?
+
+##Cournot with n firms
+###Setup
+1. Firm $i$'s output: $q_i$
+2. Total output: $Q=q_1+q_2+q_3+...+q_n$
+3. Opponents' output: $Q_{-i}=Q-q_i=\sum_{j\ne i}q_i$
+4. Constant marginal costs for each firm: $c_i$
+5. Inverse demand: $P=a-bQ$
+
+We can write down the profits for firm $i$
+
+$$\pi(q_i,Q_-i)=(a-bq_i-bQ_{-i}-c_i)q_i$$
+
+
+As before the first order condition will be 
+
+>$$a-2bq_i-bQ_{-i}-c_i=0$$
+
+using the fact that $2bq_i=bq_i+bq_i$, the previous expression for asl firms can be written as	
+
+$$a-bq_1-bQ-c_1=0$$
+
+$$a-bq_2-bQ-c_2=0$$
+
+$$a-bq_3-bQ-c_3=0$$
+$$a-bq_n-bQ-c_n=0$$
+
+adding up 
+$$na-bQ-nbQ-n\bar{c}=0$$
+
+Solving for $Q$ and $P$ we get generalized expressions for the price and quantity as a function of the number of firms in the market
+
+>$$Q=\frac{n}{n+1}\frac{a-\bar{c}}{b}$$
+
+>$$P=\frac{1}{n+1}a-\frac{n}{n+1}\bar{c}$$
+
+##Bertrand Oligopoly
+
+The interesting Bertrand case happens when the goods are related but not exactly homogeneous.  
+
+Horizontal differentiation
+: Goods that are differentiated according to horizontal attributes can't be ranked, because horizontal characteristics refer to tastes. Different people would have different preferences: color, sweetness, content of gluten, etc. 
+
+Vertical differentiation
+: When goods differ in their vertical attributes everybody would order them equally. More mileage per gallon is always better than less. More fries is always better than less.
+
+
+Suppose 2 firms with goods that are close substitutes (their products are horizontally differentiated). The demand for each good is given by:
+
+>$$q_1=a-bp_1+dp_2$$
+>
+>$$q_2=e-fp_2+gp_1$$
+
+Clearly the profit function for each firm will depend on the price set by its rival
+
+>$$\pi^1(p_1,p_2)=(p_1-c)(a-bp_1+dp_2)$$
+>
+>$$\pi^2(p_1,p_2)=(p_2-c)(e-fp_2+gp_1)$$
+
+The first order conditions help us obtain the best response functions which in turn determine the equilibrium
+
+![enter image description here](http://www.olicognography.org/graph/bertrandequilibrium.gif)
+
+

@@ -1,0 +1,38 @@
+#Homework 1
+##Problem 1
+ Let $q=K^\alpha L^\beta$ be the production function. 
+ 1.  Show that the conditional demand for capital is $K^*=q^{\frac{1}{\alpha+\beta}}(\frac{w\alpha}{r\beta})^{\frac{\beta}{\alpha+\beta}}$
+ 2. Show that the cost function is $C(q)=(\Omega r^\alpha w^\beta q)^{\frac{1}{\alpha+\beta}}$ where $\Omega=\alpha^\beta \beta^{-\beta}+\alpha^{-\alpha}\beta^\alpha$
+ 3.  Find the marginal cost  and show that $MC=\frac{w}{MP_k}=\frac{r}{MP_l}$ (yet another equi-marginal condition). What is the meaning of these equalities?
+##Problem 2
+ A taqueria in a ski resort has a total cost of \$3,000 per month. The lease of the taqueria site is \$24,000 per year (note: the lease is renewed every year). Its total revenues over the six cold months amount to \$30,000, while its total revenue over the other six warm months are only \$8,000. Would you operate during the warm months of the year? Explain why or why not.
+##Problem 3
+Suppose that a firm can produce its goods in 3 plants. Find a rule for allocating production among the 3 plants in a way that costs are minimized. Do so for each of the next alternate scenarios:
+1. $C_1=C_2=C_3=2q$
+2.  $C_1=\frac{1}{q}$, $C_2=q$ and $C_3=.5q$
+3. $C_1=10q^2$, $C_2=100q$ and $C_3=q^3$
+
+##Problem 4
+Suppose there is a perfectly competitive industry where all the firms are identical with identical cost curves. Furthermore, suppose that a representative firm’s total cost is given by 
+$$C(q)= 100 + q^2+q$$
+where $q$ is the quantity of output produced by thefirm. You also know that the market demand for this product is given by the equation 
+$$P =1000 – 2Q$$ 
+where $Q$ is the market quantity. In addition you are told that the market supply curve is given by the equation 
+$$P = 100 + Q.$$
+1. What is the the equilibrium quantity and price in this market?
+[answer]: <> (To find the equilibrium set market demand equal to market supply: $1000 – 2Q =100 + Q$. Solving for $Q$, you get $Q = 300$. Plugging $300$ back into either the market demand curve or the market supply curve you get $P = 400$.)
+2.The firm’s MC equation based upon its $TC$ equation is $MC = 2q + 1$. Given this information and your answer in part (1), what is the firm’s profit maximizing level of production, total revenue, total cost and profit at this market equilibrium? Is this a short-run or long-run equilibrium? Explain your answer.
+[answer]: <> (From part (a) you know the equilibrium market price is \$400. You also know that the firm profit maximizes by producing that level of output where MR = MC. Since the equilibrium market price is the firm’s marginal revenue you know that MR = \$400. Setting MR = MC gives you 400 = 2q + 1, or q = 199.5. Thus, the profit maximizing level of output for the firm is 199.5 units when the price is \$400 per unit. Using this information it is easy to find total revenue as the price times the quantity: TR = (\$400 per unit)(199.5 units) = \$79,800. Total cost is found by   substituting q = 199.5 into the TC equation: TC = \$40,099.75. Profit is the difference between TR and TC: Profit = TR – TC = 79,800 – 40,099.75 = \$39,700.25. Since profit is not equal to zero this cannot be a long-run equilibrium situation: it must be a short-run equilibrium situation.)
+3. Given your answer in part (b), what do you anticipate will happen in this market in the long-run?
+[answer]: <> (Since there is a positive economic profit in the short run, there should be entry of firms in the long-run resulting in an increase in the market quantity, a decrease in the market price, and firms in the industry earning zero economic profit.)
+4. In this market, what is the long-run equilibrium price and what is the  long-run equilibrium quantity for a representative firm to produce? Explain your answer.
+[answer]: <> (The long-run equilibrium price is that price that results in the representative firm earning zero economic profit. This will occur when MC = ATC for the representative firm. ATC is just the TC equation divided by q. Thus, 2q + 1 = (100 + q2 + q)/q. Solving for q, q = 10. Plugging 10 in for q into the ATC equation yields the following: ATC = (100 + 102 + 10)/10 = 21. So, when Price equals MR = min ATC = MC = $21, this firm will break even. To see this compute TR for the firm when it produces 10 units and sells each unit for $21: TR = $210. Notice that this is the same as the firm’s TC: thus, the firm earns zero economic profit.)
+5. Given the long-run equilibrium price you calculated in part (d), how many units of this good are produced in this market?
+[answer]: <> (To find this quantity you need to substitute $21 (the long-run equilibrium price) into the market demand curve to determine the quantity that the market must produce in order to be in long-run equilibrium. This quantity is equal to 489.5 units. Question 2)
+
+
+##Recommended exercises from the book
+1. Practice problems 2.1, 2.2, 2.3, 2.4. 
+2. Problems 1, 3, 4, 5, 6.
+
+

@@ -1,0 +1,135 @@
+[TOC]
+
+#Class outline
+##Presentation
+
+##The equi-marginal principle (EMP)
+Most of the work in economics consists of optimizing stuff: minimizing costs, maximizing profits, maximizing welfare... Across all those problems and some others arise a general principle. Namely, when optimizing some *things* (what things would depend on the problem at hand) in the margin would be equal. Try and keep track of where EMP shows up. It makes understanding things easier. Instead of memorizing 40 formulas, just learn how to use one powerful principle.
+##The technology
+The production function for a firm that uses 2 factors *k* and *l* to produce output *y* is given by
+>\begin{equation}
+q=F(k,l)
+\end{equation}
+
+Marginal product of input *i* 
+: measures the change in output due to a **small change** in input *i*.
+
++ Marginal product of capital
+$$MP_k=F_k=\frac {\partial F(k,l)}{\partial k}$$
++ Marginal product of labor
+$$MP_l=F_l=\frac {\partial F(k,l)}{\partial l}$$
+
+Average product
+: It is the ratio of output to input.
+
++ Average product of capital
+$$AP_k=\frac q k=\frac {F(k,l)}{k}$$
++ Average product of labor
+$$AP_l=\frac q l=\frac {F(k,l)}{l}$$
+
+Relationship between AP and MP
+: The average product of an input is maximum when it is equal to the marginal product
+> *proof*
+> $AP_k=\frac {F(k,l)} k$
+>taking derivatives with respect to *k* on both sides
+>$$\frac{\partial AP_k}{ \partial k}=\frac{\frac{\partial F(k,l)}{\partial k}k-F(k,l)}{ k^2}$$
+Because we are looking for the point where the average product is maximized we have $\frac{\partial AP_k}{ \partial k}=0$, so 
+$$0=\frac{\frac{\partial F(k,l)}{\partial k}k-F(k,l)}{ k^2}$$
+$$0=\frac{\partial F(k,l)}{\partial k}k-F(k,l)$$
+$$\frac{\partial F(k,l)}{\partial k}=\frac {F(k,l)} k$$
+$$MP_k=AP_k$$
+*QED*
+
+Returns to scale
+: It is a measure of the change in output when **all factors** are scaled by $\lambda>1$.  
+
++ Increasing returns to scale
+$$\lambda q < F(\lambda k,\lambda l)$$
++ Constant returns to scale
+ $$\lambda q= F(\lambda k,\lambda l)$$
++ Decreasing returns to scale
+$$\lambda q> F(\lambda k,\lambda l)$$
+
+When the production function is homogeneous, the returns to scale are determined by the degree of the function. 
+
++ Increasing returns to scale for $\theta>1$
+
++ Constant returns to scale $\theta=1$
+
++ Decreasing returns to scale $\theta>1$
+
+Excercise
+:  Let $q=F(k,l)$ be homogeneous of degree 0. Prove that it also has constant returns to scale. (Hint: Euler's theorem may be helpful)
+
+
+## Cost
+###Fixed costs and sunk costs
+To start producing, a firm has to incur some start-up cost $F$. It might be R&D (GoPro), a license (winery) , setting up a marketing department (pizza joint), building production facilities (kiln), etc. 
+
+Accounting and economics differ on the treatment of these costs. Some of these costs have **zero opportunity cost**, hence economists don't care about them and called them *sunk costs*, because they cannot be recovered. Accountants keep those costs in the books. 
+
+Example of sunk, fixed and not so sunk
+: Suppose your lease an office for a year. You paint it and buy some new cool furniture. All 3 costs, lease, furniture and paint, are fixed in the sense that regardless of the level of production they cost the same. The cost of painting is *sunk* though. You cannot recover it. Hence when deciding how much to produce the cost of the painting is irrelevant. What about the furniture?
+Sunk cost and short run decision
+: 
+
+###The Cost Function
+Describes the minimum cost of producing *q* units of output when the prices of the the inputs are *r* and *w*. The problem for a cost minimizing firm is
+$$\min_{l,k} wl+rk$$ subject to $$\bar q=F(k,l)$$
+The solution to the firm's problems is given by $l^*(w,r,\bar q)$ and $k^*(w,r,\bar q)$ known as conditional demands for inputs. The cost function is defined as:
+$$C(q)=wl^*(w,r,\bar q)+k^*(w,r,\bar q)$$
+
+
+Relationship between average and marginal  cost
+: Average cost is minimized where MC = AC
+> *proof*
+> $AC(q)=\frac{C(q)}{q}$
+> taking partial on both sides with respect to $q$ we get
+> $$\frac{\partial AC(q)}{\partial q}=\frac{\frac{\partial C(q)}{\partial q}q-C(q)}{ q^2}$$
+> Since we are at the mininimun this partial has to equal zero:
+> $$0=\frac{\frac{\partial C(q)}{\partial q}q-C(q)}{ q^2}$$
+> $$0=\frac{\partial C(q)}{\partial q}q-C(q)$$
+>  $$\frac{\partial C(q)}{\partial q}q=C(q)$$
+>   $$\frac{\partial C(q)}{\partial q}=\frac{C(q)}{q}$$
+>   *QED*
+
+
+##Economies of scale
+The cost equivalent of returns to scale. It captures the idea that duplicating production does not duplicate costs. Formally: $C(\lambda q)<\lambda C(q)$ (The verbal definition above used $\lambda=2$).
+
+When a firm can produce in different plants, each plant with a different cost function, the existence or not of economies of scales in a given plant is crucial to decide how to allocate production across plants.
+
+
+
+
+##The Competitive Equilibrium
+It is almost impossible to come up with an example of an industry that operates as competitive. Textbooks try with the grain market (or some other commodity). I won't try to give an example. Instead I will describe what a competitive market should have:
+
++ a **large** number of producers and consumers
++  the producers produce a **homogeneous** good.
++  no **barriers** to entry or exit
++ information is **public** and **common knowledge**
+
+### A firm's problem in a competitive environment
+A firm in a competitive market solves
+ $$\max_q\Pi(q)=\max_qPq-C(q)$$
+Notice that the price $P$ is not a function of the amount produce by the firm $q$. In other words the prices is constante from the firm's standpoint.
+The first order condition for that problem is 
+$$\frac{\partial\Pi}{\partial q}=0$$
+$$p-\frac{\partial C(q)}{\partial q}=0$$
+or $p=MC$. This condition describes the supply function of the firm. For each price $p$ there is a corresponding $q$ that satisfy the equality. Since firms are identical, the supply curve for the industry is given by adding all the individual supplies.
+
+##Welfare
+Welfare is a measure of the overall value created in a market. It is computed as the sum of two entities: consumer surplus and producer surplus. 
+
+Consumer Surplus
+: is the sum of the differences between willingness to pay and price paid over all units  bought. Formally is the area under the demand curve and above the price.
+
+Producer Surplus
+: is the sum of the differences of the marginal profit, $P-MC$ across all units sold.
+
+Welfare is maximized when the market is competitive. 
+
+
+
+

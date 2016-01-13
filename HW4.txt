@@ -1,0 +1,33 @@
+
+
+
+#Homework 4
+
+##Problem 1
+Suppose that the inverse demand for paragliders in Annecy is given by $p=130-Q$. There are currently 20 identical firms that produce paragliders in the area. The unit cost of producing a paraglider is constant and equal to $30$. Firms in this industry compete in quantities.
+
+du
+1. Show that in aCournot equilibrium the profit for each firm is $\pi=22.67$
+
+2. Now suppose that 6 firms merge. Show that the profit of each firm in the post merger Cournot game is $39.06$
+
+2. Show that the profit earned by the merged firm is not enough to compensate all the owners who owned the original six firms in the pre merger market. 
+
+##Problem 2
+
+Honda and Toyota are considering building a plant in the US. They can decide not to build, build a small plant or a big plant. The next matrix of payoffs describes the profits for each combination of strategies, with Honda choosing rows and Toyota choosing columns
+
+|.|Big|Small|Don't build|
+|:---|:--:|:--:|:---:|
+|Big|0,0|12,8|18,9|
+|Small|8,12|16,16|22,15|
+|Don't Build|9,18|15,22|18,18|
+
+1. Which strategy is strictly dominated?
+2. When Honda chooses "Big" what is  Toyota's best response?
+3. Find the Nash equilibrium (in pure strategies).
+
+##Problem 3
+Two firms compete in the market of homogeneous used cars.  The cost function for each firm is given by $$C=5,000+600Q+q^	2$$ and the demand for used cars is given by $$Q=300-\frac{1}{10}P$$
+1.By regulations the firms can only  set two prices: $$P=2000$$
+ and $$P=1500$$ Write down the normal for game and find the Nash equilibrium. 

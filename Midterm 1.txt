@@ -1,0 +1,83 @@
+
+
+#Midterm 1
+Leo Spaceman just graduated as a physician. He leases an office for a year for \$12,000 (he won't get a cent back if he decides to break the lease). Leo's unemployed boyfriend painted the office. He used 3 gallons of elk tongue red that costed \$1,200. They also spent \$3,850 buying furniture in Ikea (assumption: people don't buy used Ikea items at the same price as Ikea sell them when new).
+
+1. Leo's start up cost is
+a. \$16,050
+b. \$12,000
+c. \$13,200
+d. \$15,850
+
+
+2.  Leo's sunk costs are
+a. \$16,050
+b. \$12,000
+c. \$13,200
+d. \$15,850
+
+El Güero Canelo produces his hot dogs in two factories with cost functions given by $c_1(q_1) = 8q_1$ and $c_2(q_2) = 1 + q_2$
+
+3. Where should El Güero produce the first hot dog?
+a. plant 2
+b. plant 1
+c. either plant
+d. half hotdog in each plant.
+
+4. If a given day 4 hot dogs ($Q=q_1+q_2=4$) have to be produced, how should they be allocated across plants?
+a. $q_1=1$, $q_2=3$
+b.$q_1=4$, $q_2=0$
+c.$q_1=2$, $q_2=2$
+d.$q_1=3$, $q_2=1$
+
+3. El Güero sold plant 1 and now can only produce using plant 2. After taking Econ classes at the U of A he thinks is good idea to minimize the average cost. To do so he has to produce:
+a. $q_2=\infty$
+b. $q_2=0$
+c. $q_2=5$
+d. $q_2=4$
+
+Purcell Souvenirs has the monopoly  on postcards in Stone Mountain, GA. The firm faces a downward slope demand. To maximize profits Purcell has set a price $P=10$ and $1,000$  postcards are sold every month. Also it is known that the elasticy of demand is $\eta=-5$ and that the marginal cost is constant at $MC=8$.
+
+1. The cost of selling and additional postcard is
+a. 8
+b.16
+c.4
+d.0
+
+2. By selling one more postcard the revenue will increase by
+a.less than 8
+b.8
+c.more than 8
+d.won't increase
+
+3. To be able to sell an additional postcard, the new price would have to be
+a.9.998
+b9.999
+c.10.2
+d.10.02
+
+4. The producer surplus is
+a.2000
+b.400
+c.1000
+d.1200
+
+5. If the federal government forced Purcell to sell at a price that is efficient, how many postcards would be sold?
+a. more than 1000
+b. 995
+c. 1000
+d. none of the above
+
+6. if Purcell could price discriminate the producer surplus would be
+a. 2800
+b. 1800
+c. 1000
+d. 1200
+
+7. Purcell was granted access to the postcards market in Boone county , AK. In Boone county one can sell as many postcards as one wants for $8. How many postcards would be sold in Stone Mountain (where Purcell is still a monopoly)?
+a 1000
+b. 995
+c. more than 1000
+d. none of the above
+ 
+

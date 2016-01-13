@@ -1,0 +1,56 @@
+
+
+#Monopoly PS
+
+
+1. The monthly demand for widgets is given in inverse form by $P=1000 − 0.025Q$ and the
+supply is given by $P = 150 + 0.033Q$ ($Q$ represents the total quantity)
+a. Calculate the equilibrium price and quantity.
+b. Calculate consumer and producer surplus.
+
+2. The cost of producing drums for a typical firm is given by $C(q) = 2q + 2q^2$ (q is the output of just one firm).
+a. Show that the supply for an individual firm is $q = \frac{P}{4}− \frac{1}{2}$
+b. There are 100 identical firms in the industry. Find the industry supply assuming the firms behave competitively.
+c. Find price, quantity and Welfare.
+d. Now suppose the firms form a cartel that maximizes joint profit. Find the price and quantity and the DWL.
+
+A monopolist that maximizes profit sells $1000$ homogeneous nail clippers at a price of $\$1000$ in Tucson. At this price the elasticity is -$2$. The marginal cost of producing nail clippers is increasing.
+
+1. The cost of producing one more nail clipper for the monopolist is
+	a. $\$1,000$
+	b. less than $\$1,000$
+c. zero
+d. greater than $\$1,000$
+
+
+2. The producer surplus is
+a. $ \$1,000$
+b. $\$1,000,000$
+c. more than $\$1,000,000$
+d. less than $\$1,000,000$
+
+3. If the monopolist sold one more nail clipper the price would be
+a. approximately $\$995$
+b. approximately $\$999.5$
+c. approximately $\$999$
+d. it would remain constant
+
+4. If the monopolist sold one more nail clipper its total income would
+a.  increase by $\$499.5$
+b. decrease by $\$499.5$
+c. increase approximately by $\$999$
+d. remain the same
+
+5. Now suppose that the same firm has access to the state (Arizona) market of nail clippers where the firm can sell any amount at $1000. In Tucson however the firm is still a monopoly ant the firm can charge a different price than in the rest of the state. To maximize profits the amount of nail clippers that the firm needs to sell in Tucson is
+a. 1000
+b. more than 1000
+c. zero
+d. less than 1000
+
+6. Suppose that Tucson’s market is now open and nail clippers can be imported from other
+places in the state. The amount of nail clippers sold in Tucson will be
+a. 1000
+b. more than 1000
+c. zero
+d. less than 1000
+

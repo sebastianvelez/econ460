@@ -1,0 +1,36 @@
+
+
+
+##Problem set (20 points)
+>groups of 3 people
+>Each group compete with other groups
+>Only the 3 first groups can claim the points
+
+
+You have been hired as the CEO of Vandelay Industries the only gantry crane to load/unload cargo for ships arriving at the Port of Catoosa. Your engineering department reports that the cost of operating the crane is given by $C=F+Q$ where $Q$ is the daily number of containers unloaded and $F=500$ is the opportunity cost of operating the crane every day. Your economics department estimated the daily demand to be $Q=204-4P$ where $P$ is the price for loading/unloading a container.  The board of directors has given you some tasks (and assume that the board would like to maximize profits)
+
+1.  Find out if the company is a *natural monopoly*. 
+1. A member of the board wants to minimize costs. How many containers a day would be necessary to load/unload to minimize costs?
+1. Find the price that should be charged.
+8. Find the profits for the board and the consumer surplus for the town council.
+9. Make a graph of all this things.
+
+
+Vandelay acquired an abandoned wharf where old-school, artisanal loading/unloading of shipments can be done. The cost of operating the wharf is given by $C(Q_w)=\frac{1}{20}Q_w^2$, where $Q_w$ is the amount of containers loaded/unloaded through the wharf.
+
+1. Find the marginal cost for the *firm* (using both facilities: the gantry crane and the wharf).
+2. Show that the *total* number of containers and price won't change with the acquisition of the wharf.
+3. How many containers have to be loaded/unloaded in each port to maximize profits?
+4. Show in a graph.
+
+The government wants to regulate the operation of the port. 
+
+1. What price should Vandelay charge to maximize social efficiency (maximize social welfare)?
+2. Is the price viable? Would the government need to subsidize the operation of the ports?
+3. What would be the price if the government does not want to subsidize Vandelay but wants to increase welfare?
+4. Compare 2 and 3 in a graph.
+
+Ignore the government intervention now. The city will grant licenses for anybody willing to load/unload cargo from the shores (just in the same way as the wharf). The cost of the licenses is $F=50$.
+
+1. Find the long run number of firms that will operate.
+2. Find the long run price and number of containers loaded/unloaded daily.

@@ -1,0 +1,35 @@
+
+
+
+#Sheinhardt wigs  (20 points)
+>
+SW is considering to start operation on Nogales (both sides of the border). In a previous study SW found that the demands on each market are given by
+
+Demand for wigs in Nogales, AZ
+: $$q_a=20-P$$
+
+Demand of wigs in Nogales, Sonora
+: $$q_s=5-P$$
+
+Because of the international border dividing the town, people south of the border cannot trade wigs with people north of it. SW is so good at making wigs that the marginal cost of producing wigs is zero.
+
+So far it seems as if the Internation Association of Wig Manufacturers (IAWM) won't allow SW to charge a different price on each side of the bordger. 
+
+
+ 1. What would be the unique price that maximizes profits? 
+ [comment]: <> ($P=\frac{25}{4}$)
+ 2. How many wigs would be sold in each market?
+[comment]: <> (the price is too high for the Sonoran side of the town, $q_s=12.5$)
+ 3. What are the profits? And the consumer surplus?
+
+[comment]: <> ($\pi=\frac{625}{8}$, $CS=\frac{1}{2}(20-6.5)12.5$)
+
+If the IAWM allowed price discrimination, 
+
+
+4. what prices $P_a$ and $P_s$ should SW charge? 
+[comment]: <> ($P_a=10$,$P_s=2.5$)
+5. How much is the marginal revenue in each town?
+[comment]: <> (0 on both towns)
+6. How much is the total consumer surplus? And the profits?
+[comment]: <> ($CS=106.5$,$\pi=106.5$)

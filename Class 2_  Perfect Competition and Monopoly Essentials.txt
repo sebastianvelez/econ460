@@ -1,0 +1,86 @@
+
+
+[TOC]
+#Perfect Competition
+
+##Solution to Problem 4 (HW 1)
+Suppose there is a perfectly competitive industry where all the firms are identical with identical cost curves. Furthermore, suppose that a representative firm’s total cost is given by 
+$$C(q)= 100 + q^2+q$$
+where $q$ is the quantity of output produced by thefirm. You also know that the market demand for this product is given by the equation 
+$$P =1000 – 2Q$$ 
+where $Q$ is the market quantity. In addition you are told that the market supply curve is given by the equation 
+$$P = 100 + Q.$$
+
+
+1. What is the the equilibrium quantity and price in this market?
+>To find the equilibrium set market demand equal to market supply: $1000 – 2Q =100 + Q$. Solving for $Q$, you get $Q = 300$. Plugging $300$ back into either the market demand curve or the market supply curve you get $P = 400$.)
+
+2. The firm’s MC equation based upon its $TC$ equation is $MC = 2q + 1$. Given this information and your answer in part (1), what is the firm’s profit maximizing level of production, total revenue, total cost and profit at this market equilibrium? Is this a short-run or long-run equilibrium? Explain your answer.
+> From part (a) you know the equilibrium market price is \$400. You also know that the firm profit maximizes by producing that level of output where MR = MC. Since the equilibrium market price is the firm’s marginal revenue you know that MR = \$400. Setting MR = MC gives you 400 = 2q + 1, or q = 199.5. Thus, the profit maximizing level of output for the firm is 199.5 units when the price is \$400 per unit. Using this information it is easy to find total revenue as the price times the quantity: TR = (\$400 per unit)(199.5 units) = \$79,800. Total cost is found by   substituting q = 199.5 into the TC equation: TC = \$40,099.75. Profit is the difference between TR and TC: Profit = TR – TC = 79,800 – 40,099.75 = \$39,700.25. Since profit is not equal to zero this cannot be a long-run equilibrium situation: it must be a short-run equilibrium situation.
+
+3. Given your answer in part (b), what do you anticipate will happen in this market in the long-run?
+>Since there is a positive economic profit in the short run, there should be entry of firms in the long-run resulting in an increase in the market quantity, a decrease in the market price, and firms in the industry earning zero economic profit.)
+4. In this market, what is the long-run equilibrium price and what is the  long-run equilibrium quantity for a representative firm to produce? Explain your answer.
+>The long-run equilibrium price is that price that results in the representative firm earning zero economic profit. This will occur when MC = ATC for the representative firm. ATC is just the TC equation divided by q. Thus, 2q + 1 = (100 + q2 + q)/q. Solving for q, q = 10. Plugging 10 in for q into the ATC equation yields the following: ATC = (100 + 102 + 10)/10 = 21. So, when Price equals MR = min ATC = MC = \$21, this firm will break even. To see this compute TR for the firm when it produces 10 units and sells each unit for \$21: TR = $210. Notice that this is the same as the firm’s TC: thus, the firm earns zero economic profit.
+
+5. Given the long-run equilibrium price you calculated in part (d), how many units of this good are produced in this market?
+>To find this quantity you need to substitute $21 (the long-run equilibrium price) into the market demand curve to determine the quantity that the market must produce in order to be in long-run equilibrium. This quantity is equal to 489.5 units. 
+
+##Welfare
+Welfare is a measure of the overall value created in a market. It is computed as the sum of two entities: consumer surplus and producer surplus. 
+
+Consumer Surplus
+: is the sum of the differences between willingness to pay and price paid over all units  bought. Formally is the area under the demand curve and above the price.
+
+Producer Surplus
+: is the sum of the differences of the marginal profit, $P-MC$ across all units sold.
+
+Welfare is maximized when the market is competitive. 
+
+##Long run and short run
+Economists define long run and short run in weird way: it has nothing to do with time. Instead we say that a market is in short run equilibrium if firms are making profits. Alternatively, firms in a long run equilibrium should make zero profits. Once firms make zero profits, there are no incentives for new firms to enter. 
+
+#Price elasticity of demand
+Elasticity of demand measures the response of the quantity demanded to small changes in prices. It would be crucial to understand it well how monopolies operate. It is defined as
+$$\eta=\frac{\partial log(Q)}{\partial log (P)}=\frac{\partial Q}{\partial P} \frac{P}{Q}	$$
+
+#Marginal revenue
+Defines the change in revenue due to a small change in output. Formally, 
+
+$$MR=\frac {\partial P(Q)Q}{\partial{Q}}$$
+
+There is an interesting relationship between Marginal Revenue and Elasticity:
+$$MR=\left[1+\frac{1}{\eta}\right]$$
+
+Relationship between the MR and the demand
+: Something very useful is that for linear demands, the marginal revenue curve is the same demand curve, just with twice the slope.
+>*proof*
+>Let the demand be $P=a+bQ$, then the revenue 
+>$PQ=aQ+bQ^2$
+>taking partials to find the marginal revenue
+>$\frac {\partial P(Q)Q}{\partial{Q}}=a+2bQ$
+>*QED*
+
+
+#Monopoly Essentials
+
+##The Monopolist's problem
+Suppose a market with inverse demand given by $P=p(Q)$. The problem faced by the manager of a firm that operates alone in this market is finding a quantity $Q$ that maximizes her profit. Formally,
+
+$$\max_Q p(Q)Q-C(Q)$$
+where $C(Q)$ is the cost function. 
+The FOC for this problem when $Q$ is a scalar is:
+>$$p'(Q)Q+p(Q)-C'(Q)=0$$
+
+Note that the term $p'(Q)Q+p(Q)$ is the marginal revenue and $C'(Q)$ is the marginal cost, so the condition for profit maximization can be written as
+>$$MC=MR=\left[1+\frac{1}{\eta}\right]$$
+
+ The marginal revenue has two parts. First, $p'(Q)Q$, reflects the change in price for the inframarginal units. Second, $p(Q)$ reflects the revenue generated by selling one more unit (the marginal one).
+
+Lerner Index
+: It is a measure of market power. It is defined as 
+$$\mathcal{L}=\frac{P-MC}{P}=-\frac{1}{\eta} $$
+ 
+## Output distortion
+A  monopoly will *always* sell less than the efficient quantity at a higher price. To note this, not that the condition for profit maximization implies that $MC<P$
+ 

@@ -1,0 +1,51 @@
+##Main street breweries
+
+1. There are two barbershops located on Main Street, which have different
+unit cost. 
+- The low cost one, Manny's, is located at the east end of Main street ($x=0$). 
+- The fancy brewery, Floyd's, is located at the west end of the street ($x=1$). 
+
+	```sequence
+Floyd's (x=0)->Manny's (x=1): Main St. (Length  1  mile.....)
+
+	```
+3. Manny's cost per haircut is $c_m$ while the cost of providing a haircut for Floyd's is $c_f$ ($c_m<c_f$).
+4. On a given week there are 100 potential customers who live evenly spaced along main street and they get at most one haircut.
+5. All these people are willing to pay up to $50 for a haircut.
+6. The cost of travelling along Main Street is $5/mile.
+
+
+Demand for each firm
+: First we need to find the distance where the indifferent consumer lives for any pair of prices $p_f$ and $p_c$. For a consumer living at milestone $x$ to be indifferent we need
+$$50-5x-p_f=50-(1-x)5-p_m$$
+
+solving for $x$
+
+>$$x=\frac{p_m-p_f+5}{10}.$$
+
+
+Since there are 100 potential consumers along the mile stretch, the demand for Floyd's is (everybody west of $x$)
+
+>$$q_f=100x=10p_m-10p_f+50$$
+
+and the demand for Manny's is (everybody east of $x$)
+>$$q_m=100(1-x)=10p_f-10p_m+50$$
+
+Now that we have the demands we can find the best response functions for Floyd
+
+>$$P_f=\frac{P_m+c_f+5}{2}$$
+
+while for Manny
+
+>$$P_m=\frac{P_f+c_m+5}{2}$$
+
+It is worth noting that an increase in the cost of Floyd increases the price for Manny in equilibrium.
+
+Now solving for the equilibrium prices, assuming $c_m=10$ and  $c_m=20$
+
+We get $p_f=18.33$ and $p_m=21.67$
+
+What allows firms to price over marginal cost?
+
+: Product differentiation. Even though the haircuts were basically identical, the location of the barbershops made them differentiated.
+

@@ -1,0 +1,53 @@
+
+
+
+#Game theory basics
+If we don't have to worry about finding the profits decision makers would earn under every possible scenario we can focus on understanding the optimal decision they make. From now on we focus on the optimal solution to problems for which we know the strategies and  the profits earned by firms in every possible scenario. 
+
+Example
+: Departure choice
+
+| .|Morning|Evening|
+|:---|:--:|:--:|
+|Morning|15,15|30,70|
+|Evening|70,30|35,35|
+
+
+##Types of games
+Normal form games (Box)
+: When players choose simultaneously their strategies, we can represent the game by a table that contains in each cell the pair of payoffs (profits, market share, years in prison, etc.) like we did in the previous example.
+
+Extensive form games (Tree)
+: When there is some sequential order, that is when the order in which players choose matters, it is more appropriate to represent the game in extensive formn
+
+Example
+: 
+![enter image description here](http://www.econport.org/images/mod_stackelberg_fig3.gif)
+
+
+Regardless of what type of game we are analyzing, simultaneous or sequential, the idea to find the equilibria is the same: each firm has to be best responding to its rival.
+
+##Solution concepts
+
+Dominated Strategies
+: The easiest tool at hand to start solving games is to get rid of the worst strategies. The worst kind of strategy is a strategy that yields worse payoffs than any alternative for **any** strategy of your rival.
+In the departure choice game, "Morning" yields lower payoffs always for any rival strategy.
+
+| .|Morning|Evening|
+|:---|:--:|:--:|
+|Morning|15,15|30,70|
+|Evening|70,30|35,35|
+
+Although convenient, eliminating dominated strategies is not useful always
+
+| .|Left|Center|Right|
+|:---|:--:|:--:|:---:|
+|High|0,4|4,0|5,3|
+|Medium|4,0|0,4|5,3|
+|Low|3,5|3,5|6,6|
+
+Nash equilibrium
+: A more powerfool tool to solve games is Nash equilibrium. Even though we didn't call it NE we have used the concept recently. For a pair of strategies to be a NE we require that each strategy in the pair be a best response to the other. **Warning:** a NE is described by the strategies NOT the payoffs.
+
+
+

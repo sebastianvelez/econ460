@@ -1,0 +1,17 @@
+#Solutions HW1
+##Problem 1
+1. Set up the cost minimization problem and find the first order conditions. Solve for $K*$
+2.  Use $K*$ and first order conditions to replace $K$ and $L$ in $wL+rK$
+3. Take derivative of the cost function found on (2) with respect to $K$. They mean that the marginal costs is equal to the marginal spenditure on inputs.
+
+##Problem 2
+Even during the warm month the taqueria should operate. The lease is a sunk cost. It doesn't matter when it comes to the decision whether to operate or not every month.
+
+##Problem 3
+1. It doesn't matter how the production is allocated.
+2. First unit should be produce in plant 3. The all subsequent units shod be produced in the plant 1.
+3. Never use plant 1. Firs 33 units in plant 3. From there just use plant 2.
+
+##From Chapter 2
+
+1.

@@ -1,0 +1,53 @@
+#Homework 5
+
+##Problem 1
+
+The following game describes the situation faced by ab incumbent firm and a potential entrant. The potential entrant has 3 strategies: not enter, enter and compete hard or enter and just play along. The incumbent firm can is already operating, so it can only play hard or play along. The payoffs are given by the following matrix.
+
+
+
+|.|Not enter|Hard|P. along|
+|:---|:--:|:---:|:--:|
+|Hard|1,0|1,2|0,1|
+|Play along|0,3|0,1|2,0|
+
+Eliminate all the strictly dominated strategies
+
+##Problem 2
+
+![enter image description here](http://i.imgur.com/DBP2hqI.png)
+
+1. How many subgames are in this game? How many of them are proper?
+2. What combination of strategies for Challenger and Incumbent are a Nash Equilibrium? Explain (hint: show that there are no profitable deviations).
+
+##Problem 3
+Consider the following two player game. Firm one chooses rows.
+
+|.|Collude|Deviate|
+|:---|:--:|:---:|
+|Collude|288,288|216,324|
+|Deviate|324,216|256,256|
+
+1. Does either firm have a dominatedt strategy? Show this strategy is  in fact dominated.
+2. Find the Nash equilibrium, and show that it is indeed a Nash equilibrium.
+
+##Problem 4
+Find the Nash equilibrium
+
+|.|A|B|C|
+|:---|:--:|:---:|:--:|
+|d|1,3|-1,3|0,1|
+|e|6,6|0,7|-1,1|
+|f|1,2|1,-1|1,2|
+
+
+##Problem 5
+Delta Airlines and American Airlines are deciding what price to charge  for the flight from Tucson to New York. They know that there are 60 consumers with a reservation price of \$500 for the flight, and another 120 with the lower reservation price of \$220. If the two carriers set a common price, they share equally all those customers willing to pay that fare. On the cost side, suppose that the unit cost of serving a single passenger for either airline is \$200. Let us also assume that each airline is flying a plane with a 200-seat capacity. Although many price strategies are available to each firm, lets limit ourselves to just two. One is to set a high price of \$500. Another is to set a low price of $220. Analyze this pricing game to predict what these two airlines will do.
+
+##Problem 6
+
+Suppose 3 firms are involved in the final sale of a product: a manufacturer (M), a wholesaler (W) and a retailer (R). Each firm operates as a monopolist in it respective part of the process. The final demand in the market (retail) is given by $P=100-Q$ where Q is the quantity sold by the retailer. The unit cost for the manufacturer is $c=10$.  **M** sells it product to **W** at a price $P_m$. The cost for **W** to bring the product to the retailer is $p_m+5$ and it charges $P_w$ to **R**. **R** sells its product to the public at a price $P$
+1. Find the prices that maximize the profits for each firm. Compute the profits.
+2. Suppose that **M** and **W** merge. Find the profits
+3. Suppose that **W** and **R** merge. Find the profits
+4. Suppose that **M**, **W** and **R** merge. Find the profits

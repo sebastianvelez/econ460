@@ -1,0 +1,53 @@
+
+#Price Discrimination
+Price discrimination serves many purposes. Sometimes price discrimination helps to reduce the dead-weight loss created by a monopoly. Sometimes the monopolist simply makes more profits by using some sort of price discrimination. 
+
+There are different kinds of price discrimination. 
+
+##Perfect price discrimination (first-degree)
+
+![](http://upload.wikimedia.org/wikipedia/commons/9/9f/Price_discrimination_diagram.png "1st degree PD doesn't create DWL")
+
+
+ - Monopolist sells product with downward-sloping demand curve.
+ - Each consumer demands one unit: demand curve graphs number of consumers against their willingness-to-pay for the product.
+ - Perfect price discrimination: charge each consumer her WTP.
+ - Perfectly discriminating monopolist produces more than "regular" monopolist: both produce at q where $MC(Q) = MR(Q)$, but for PD
+monopolist $MR(Q) = p(Q)$. PD monopolist produces at perfectly competitive outcome where $p(q) = MC(q)$!
+ - No two consumers will pay the same prices, and $CS=0$
+ - Perfectly discriminating monopolist makes much higher prots (takes away all of the consumer surplus).
+
+#Third-degree price discrimination
+![](http://economicsonline.co.uk/Business_economics/Price-discrimination-SNP2.png)
+
+ - The monopolist only knows demand functions for different groups of consumers. The groups differ in their price responsiveness.
+ - The monopolist cannot distinguish between consumers in each group (i.e., resale possible within groups, not across groups).
+	 - Student vs. adults tickets
+	 - Senior discounts.
+	 - domestic market vs. abroad
+ - As many prices as different elasticities (inverse elasticity  rule).
+ - Consumer welfare can increase. The more elastic group gets a lower price.
+
+
+Formally, the problem faced by the a 3rd degree PD monopolist is
+>$$\max_{q_1,q_2}p_1(q_1)q_1+p_2(q_2)q_2-C(q_1+q2)$$
+
+The firs order conditions for this problem are
+>$$MR_1=MC$$$$MR_2=MC$$
+
+Together they imply that the marginal cost across markets should be equalized to maximize profits.
+ Another way of expressing the profit maximization condition is that in each market the monopoly will set a price using the inverse elasticity rule.
+
+>$$p_1\left[1+\frac{1}{\eta_1}\right]=MC$$$$p_2\left[1+\frac{1}{\eta_2}\right]=MC$$
+With some algebra this two conditions can be re-written as
+
+>$$\frac{p_1}{p_2}=\frac{\eta_1\eta_2+\eta_1}{\eta_1\eta_2+\eta_2}$$
+From this expression it is clear that the price will be lower in the market with the higher elasticity of demand.
+
+Recommended: Practice problem 5.1.
+
+
+
+
+
+

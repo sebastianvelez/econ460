@@ -1,0 +1,46 @@
+
+
+
+#Homework 3
+
+##Problem 1
+
+Suppose an industry with just one firm. The cost function is given by $$C(q)=2q.$$
+The inverse demand for the market is given by $p=9-q$.
+
+1. What price will the firm charge? What how many goods will it sell? What would the profits be?
+$$q^{monopoly}=\frac{7}{2}$$
+$$p^{monopoly}=\frac{11}{2}$$
+3. Now suppose that another firm with identical costs will enter the market later. 
+	-  Write down the profit maximization problem for the new firm. $$\max_{q_2}q_2(9-q_1-q_2-2)$$
+
+	- Since the leader knows that the new firm will maximize profit this way, it will incorporate that knowledge in it profit maximization problem. Write it down.$$\max_{q_1}q_2(9-q_1-q_2(q_1)-2)$$
+	- Solve for the equilibrium. Show the profits for each firm. Compare with the Cournot case. $$q_1=\frac{7}{2}, q_2=\frac{7}{4},Q=\frac{21}{4},p=\frac{15}{4}$$
+
+
+|Type of competition| Profits for the firm|
+|:----------|----:
+|Cournot|$\pi_c=\frac{49}{9}$|
+|Stack/leader|$\pi^1_s=\frac{49}{8}$|
+|Stack/follower|$\pi_s^2=\frac{49}{16}$|
+
+
+[solution]: <> (http://eml.berkeley.edu/~webfac/dellavigna/e101a_f06/fexam3solutions.pdf)
+
+##Problem 2
+Let the market demand for carbonated water be given by $Q^D=100-5P.$
+Let there be two firms producing carbonated water, each with a constant
+marginal cost of $\$2$.
+
+1. What will be the price and quantities if the firms colluded? What are the firms' profits?$$p=11,Q=45,\pi=405$$ **The allocation of production across plants is irrelevant since both plants have constant marginal cost.**
+2. What is the market equilibrium price and quantity when the firms compete in a Stackelberg game? Assume Firm 1 is the the leader. What are the firms' profits?$$q_1=45,q_1=\frac{45}{2},Q=\frac{135}{2},p=\frac{23}{2},\pi_1=\frac{855}{2},\pi_2=\frac{855}{4}$$
+
+##Problem 3
+
+Assume that 2 firms sell differentiated products and face the following demand curves:
+$$q_1=64-4p_1+3p_2$$
+ 
+$$q_2=50-5p_2+2p_1$$
+
+
+1. Suppose the cost of each firm is zero. What is the market equilibrium price and quantity if Firm 1 sets its price first, followed by Firm 2 setting its price? What are the firms' profits?$$p_1=\frac{395}{34},p_2=\frac{249}{34},q_1=\frac{2,767}{34},q_2=\frac{1245}{34}$$

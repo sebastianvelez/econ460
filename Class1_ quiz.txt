@@ -1,0 +1,23 @@
+
+
+#Quiz 0
+
+>Name
+
+>Student ID
+
+
+ Find the partial with respect to $x$ for the following functions
+ 
+1. $y=\frac{f(x)}{g(x)}$
+2. $y=f(x)g(x)$
+
+Sketch the following functions
+
+3. $f(0)=0$, $\frac{\partial f(x)}{\partial x}>0$,$\frac{\partial ^2f(x)}{\partial x^2}<0$
+4. $f(0)=100$, $\frac{\partial f(x)}{\partial x}<0$,$\frac{\partial ^2f(x)}{\partial x^2}=0$
+
+Assume a production function is given by $q=KL$
+
+1. Describe the returns to scale for each factor and draw an approximate isoquant.
+2. With $K=2$ in the short run, find the minimun cost of producing $q=5$

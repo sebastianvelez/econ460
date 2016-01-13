@@ -1,0 +1,17 @@
+#Homework 6
+
+2 monopolies are involved in the production of goods: *Primera* produces inputs that *Ultimo* uses to produce the final good. The marginal costs for *Primero* are constant ($c=4$). *Ultima* faces a demand given by:
+
+$$Q=20-P$$
+
+1.  Find the prices, quantities, profits and consumer surplus when the firms act as independent monopolies. 
+
+
+[comment]:<> ($P_p=12$,$p=16$, $q=4$)
+2. Do the same for the case when there is a merger.
+3. Explain the double marginalization problem.
+
+
+
+
+

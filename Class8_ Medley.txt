@@ -1,0 +1,157 @@
+
+
+
+[TOC]
+#Sequential interaction
+In some cases firms do not decide simultaneously. The telecommunications sector is filled with situations where a leader firm, often called the incumbent, makes choices knowing that small competitors will make their moves afterwards. 
+
+##Stackelberg (Prices)
+
+We had $C=10q$ for both firms and the following demands:
+
+>$q_1=100-p_1+\frac{1}{2}p_2$
+>$q_2=100-p_2+\frac{1}{2}p_1$$
+
+In equilibrium, when the firms decided simultaneously we got 
+
+> $$p_1=p_2=73.33$$
+> 
+>$$q_1=q_2=63.34$$
+>
+>$$\pi_1=\pi_2=4011.32$$
+
+Suppose that the firms in the Bertrand homework problem decided prices sequentially instead of simultaneously with firm one deciding first. Firm 1 knows that when it's the turn for firm 2 to set its price it will do it according to the rule:
+
+>$p_2=55+\frac{1}{4}p_1$
+
+
+So when deciding the price, firm 1 maximizes
+
+$$\pi_1=p_1(100-p_1+\frac{1}{2}p_2)-10(100-p_1+\frac{1}{2}p_2)$$
+
+$$\pi_1=p_1(100-p_1+\frac{1}{2}(55+\frac{1}{4}p_1))-10(100-p_1+\frac{1}{2}(55+\frac{1}{4}p_1))$$
+
+The FOC for that problem is
+
+$\frac{\partial \pi_1}{\partial p_1}=100-2p_1+\frac{55}{2}+\frac{1}{4}p_1+10-\frac{5}{4}=0$
+
+Solving for $p_1$ and plugging it on the best response function for firm 2 we get the equilibrium
+
+>$$p_1=77.85$$
+>
+>$$p_2=74.46$$
+>
+>$$q_1=59.38$$
+>
+>$$q_2=64.47$$
+
+>$$\pi_1=4,028.93$$
+>
+>$$\pi_2=4,155.74$$
+
+###Joint price setting
+
+One could wonder what would happen if the firms merge? If that's the case the prices will be decided to maximize the joint profits
+
+>$$\max_{p_1,p_2} \pi_1 +\pi_2=\max_{p_1,p_2} p_1q_1+p_2q_2-10(q_1+q2)$$
+
+In particular
+
+$$\pi_1+\pi_2=p_1(100-p_1+\frac{1}{2}p_2)+p_2(100-p_2+\frac{1}{2}p_1)-10(100-p_2+\frac{1}{2}p_1+100-p_1+\frac{1}{2}p_2)$$
+
+The first order conditions for this problem are
+>$\frac{\partial(\pi_1+\pi_2)}{\partial p_1}=100-2p_1+\frac{1}{2}p_2+\frac{1}{2}p_2-5+10=0$
+>$\frac{\partial(\pi_1+\pi_2)}{\partial p_2}=100-2p_2+\frac{1}{2}p_1+\frac{1}{2}p_1-5+10=0$
+
+Solving for each price we get 
+$$p_1=\frac{105}{2}+\frac{1}{2}p_2$$
+
+$$p_2=\frac{105}{2}+\frac{1}{2}p_1$$
+
+We can conclude then that 
+
+>$$p_1=p_2=105$$
+>
+$$q_1=q_2=47.5$$
+>
+$$\pi_1=\pi_2=4,512.5$$
+
+If these firms merge they make about \$400 dollars more. 
+
+
+##Stackelberg (Quantities)
+Suppose 2 firms, with marginal cost $c$, in a market with inverse demand given by
+
+$$p=a-bQ$$
+
+One of the firms decides first the quantity that it will produce. The problem faced by the second firm to chose, given that it knows $q_1^*$ is
+
+$$\max_{q_2}q_2(a-bq_1^*-bq_2-c)$$
+
+The FOC will be
+
+$$a-bq_1^*-2bq_2=c$$
+
+
+So the optimal amount produced by firm 2 will be
+>$$q_2^*=\frac{a-bq_1^*-c}{2b}$$
+
+
+Since firm 1 know that this is what firm 2 will do, the problem for firm 1 is to maximize
+
+
+$$\max_{q_1}q_1(a-bq_1-bq_2^*-c)$$
+
+$$\max_{q_1}q_1(a-bq_1-b(\frac{a-bq_1-c}{2b})-c)$$
+
+$$\max_{q_1}q_1(a-bq_1-\frac{a-bq_1-c}{2}-c)$$
+
+Which has FOC
+
+$$a-2bq_1-\frac{a}{2}+bq_1+\frac{c}{2}-c=0$$
+
+which finally yields 
+$$q_1^*=\frac{a-c}{2b}$$
+
+Which is higher than the simultaneous equilibrium ($q_1=\frac{a-c}{3b}$). Firm 2's optimum output is 
+
+$$q_2^*=\frac{a-c}{4b}$$
+
+Which is less than the simultaneous profits. Finally the total quantity and prices are 
+
+> $$Q=\frac{3(a-c)}{4b}>\frac{2(a-c)}{3b}$$
+$$p=\frac{a+3c}{4}>c$$
+
+but $p<\frac{a+2c}{3}$. 
+
+Being the leader is good. This firm is guaranteed to get at least the profits it gets under Cournot competition. Why? If t chooses the Cournot quantity the other firms has to play the Cournot quantity too optimally.
+
+
+
+##Merger with homogenous goods
+Suppose we have $n$ identical firms. Marginal cost $c$ and inverse demand given by $p(Q)=a-bQ.$ We know form previous results that $q^*=\frac{a-c}{b(n+1)}$ and $\pi(n)=\frac{(a-c)^2}{b(n+1)^2}$
+
+>Practice Problem 1
+>: Suppose there are 2 firms. Compute the equilibrium quantities, price and profits. Suppose that the 2 firms merge. What are the profits for the merged company? How do they compare to the pre-merger profits?
+
+>Practice Problem 2
+>: Suppose there are 3 firms. Compute the equilibrium quantities, price and profits. Suppose that 2 firms merge. Compare the industry's profits with its pre-merger levels. Compare the profits for the merged firms with the sum of its pre-merger levels.
+
+It can be shown that for $n>2$ firms under these assumptions mergers are not profitable for the merged firms but increase the profits for the total industry and for the firms not involved.
+
+Other firms' profits increase
+: It is enough checking that $\pi(n-1)>\pi(n)$
+$$\frac{(a-c)^2}{bn^2}>\frac{(a-c)^2}{b(n+1)^2}$$
+
+Industry profits increase
+: We want to show that $(n-1)\pi(n-1)>n\pi(n)$
+$$(n-1)\frac{(a-c)^2}{b(n)^2}>n\frac{(a-c)^2}{b(n+1)^2}$$
+with a bit of algebra it is easy to see that this is true if $n^2-n-1>0$
+
+Merging firms profits decrease
+: We have to show that $\pi(n-1)<2\pi(n)$
+$$\frac{(a-c)^2}{b(n)^2}<2\frac{(a-c)^2}{b(n+1)^2}$$
+with a bit of algebra it is easy to see that this is true if $1+2n-n^2$
+
+
+

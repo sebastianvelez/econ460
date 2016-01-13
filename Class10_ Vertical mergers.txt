@@ -1,0 +1,114 @@
+#Vertical Mergers
+
+Suppose 3 firms are involved in the final sale of a product: a manufacturer (M), a wholesaler (W) and a retailer (R). Each firm operates as a monopolist in it respective part of the process. The final demand in the market (retail) is given by $P=100-Q$ where Q is the quantity sold by the retailer. The unit cost for the manufacturer is $c=10$.  **M** sells it product to **W** at a price $P_m$. The cost for **W** to bring the product to the retailer is $p_m+5$ and it charges $P_w$ to **R**. The cost for **R** is $P_w+5$ and sells its product to the public at a price $P$
+
+##Each firm for itself
+
+The retailer's marginal revenue is given by:
+
+$$MR_R=100-2Q$$
+
+To maximize profits the retailer has to sell a quantity that equalize that marginal revenue with the marginal cost, that is
+
+$$100-2Q=P_w+5$$
+
+Solving for $Q$ we get the the quantity sold by the retailer (assuming it knows $P_w$)
+
+$$Q=\frac{95}{2}-\frac{P_w}{2}$$
+
+or if we rephrase it as a in iverse demand, it is the demand faced by the wholesaler
+
+$$P_w=95-2Q$$
+
+The marginal revenue for the wholesaler is then given by $95-4Q$, which should be set equal to marginal cost
+
+$$95-4Q=P_m+5$$
+
+to find the optimal quantity sold
+
+$$Q=\frac{45}{2}-\frac{p_m}{4}$$
+
+and the demand faced by the manufacturer
+
+$$P_m=90-4Q$$
+
+The manufacturer will then set marginal cost and revenue equal
+
+$$90-8Q=10$$
+
+To optimally sell $Q=10$ units.
+| Player| Equilibrium Price | Surplus|
+|:-----|:--:|:--:|
+|Manufacturer|$P_m=50$|$400|
+|Wholesaler|$P_w=75$|$200|
+|Retailer|$P=90$|$100|
+|Consumers|-|$50|
+
+##M and W merge
+With M and W merged $P_m$ doesn't make sense anymore, since it is internalized: it's all happening inside the same firm 
+**MW**. Now the unit cost for the merged firm **MW** is 15. All else remains the same. 
+
+So we start by solving the problem for the retailer:
+
+$$100-2Q=P_{mw}+5$$
+
+We can then obtain the quantity sold by the retailer
+
+$$Q=\frac{95}{2}-\frac{P_w}{2}$$
+
+or the demand faced by the merged firm
+
+$$P_{mw}=95-2Q$$
+
+With this demand we can figure out the marginal revenue for the merged firm and write down the first orderd condition for profit maximization
+
+
+$$95-4Q=15$$
+
+Which means that optimally, the merged firm will sell $Q=20$
+
+| Player| Equilibrium Price | Surplus|
+|:-----|:--:|:--:|
+|Merged|$P_{mw}=55$|$800|
+|Retailer|$P=80$|$400|
+|Consumers|-|$200|
+
+
+
+##W and R merge
+The merged firm **WR** now has marginal cost $P_m+10$. To maximize profits it sets
+
+$$100-2Q=P_m+10$$
+
+So it will sell optimally
+
+$$Q=\frac{90}{2}-\frac{P_m}{2}$$
+
+and the demand faced by the manufacturer
+
+$$P_m=90-2Q$$
+
+which means that to maximize profits the manufacturer should sell 
+
+$$90-4Q=10$$
+
+an optimal amount of $Q=20$.
+
+| Player| Equilibrium Price | Surplus|
+|:-----|:--:|:--:|
+|Manufacturer|$P_m=50$|$800|
+|Merged|$P=80$|$400|
+|Consumers|-|$200|
+
+##Monpoly (vertical)
+
+The quantity sold will be $Q=40$
+
+| Player| Equilibrium Price | Surplus|
+|:-----|:--:|:--:|
+|Monopolist|$P=60$|$2400|
+|Consumers|-|$800|
+
+The problem with double marginalization (triple in this case) is that the consumers have to pay for every margin above marginal cost upstream.
+
+When there is competition upstream, for example if the wholesailer get its good from a competitive market of manufacturers

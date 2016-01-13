@@ -1,0 +1,30 @@
+#Airiline pricing (20 points)
+
+A small local airline hired you to come up with a price scheme for its new route Tucson - Bagdad (AZ). The plane has two seats: first class (F) and coach (C). The airline knows that 2 kinds of people fly the route: Business travelers (B) and Tourists (T). Additionally, the airline knows the passengers' maximum willingness to pay for each seat:
+
+|Passenger|Seat|WTP|
+|:-----|:----|----:|
+|Buisness|First|$1000|
+|Buisness|Coach|$400|
+|Tourist|First|$500|
+|Buisness|Coach|$300|
+
+From Monday to Thursday, business travelers always wear a suit while tourists wear cargo shorts and wife-beaters. On Fridays though, because of a casual Friday policy, businessmen also wear shorts and wife-beaters.
+
+1. For  Mon-Thur, find the prices for first class and coach ($P_f$ and $P_c$) that maximize profits.
+2. What is the problem with charging the prices found in (1) on Friday?
+
+Now consider Fridays:
+
+1. You need to find prices $P_F$ and $P_C$ to maximize profits without really knowing who is a businessman and who is a tourist. 
+- Write down an expression that describes all the prices for coach ($P_C$) that a tourist passenger would be willing to pay.
+[comment]: <> ($300-P_C\ge0$ Type T decides to travel)
+- Write down an expression that describes all the prices for a first class ($P_F$) that a tourist passenger would be willing to pay.
+[comment]: <> ($1000-P_F\ge0$ Type B decides to travel)
+
+4. Now you need to make sure that when facing these prices ($P_F$ and $P_C$) tourists buy coach while businessmen buy first class. 
+- Write down an expression describing which condition has to hold for businessmen to buy  first class priced at $P_F$ instead of buying coach priced at $P_C$.
+[comment]: <> ($1000-P_F\ge400-P_C$ Type B buys first class)
+- Write down an expression describing which condition has to hold for tourists to buy  coach priced at $P_C$ instead of buying first class priced at $P_F$.
+[comment]: <> ($300-P_C\ge500-P_F Type T buys coach$)
+3. Solve for the prices that the airline should charge on Fridays to maximize profits. 
