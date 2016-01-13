@@ -1,6 +1,11 @@
+---
+title: "Quizz 0"
+author: "Econ 460"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output: html_document
+---
 
 
-#Quiz 0
 
 >Name
 

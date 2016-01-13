@@ -1,0 +1,222 @@
+---
+title: "Intro to IO"
+author: "Juan Vélez"
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output: 
+  ioslides_presentation:
+    css: orals.css
+    widescreen: true
+---
+
+
+# Course Basics
+
+
+## Instructor and TA {.smaller}
+
+### Instructor
+
+For everything that is related to content.
+
+> - Juan Vélez
+    - sebastianvelez@email.Arizona.edu
+    - Office hours: TUE, THU 11am-12pm (401B)
+
+
+### Teaching Assistant
+
+For everything that is grade related.
+
+> - Kyle Wilson
+    - wilsonk610@email.arizona.edu
+    - No need to meet. He will keep scanned versions of your exams.
+    
+
+
+## Course description {.smaller}
+
+The course intends to provide a rigorous introduction to the study  of firm's behavior.
+
+> - How do firms behave within a industry? with firms in other industries?
+    - Strategic interaction.
+    - Imperfect competition.
+  
+  
+Formal prerequisites: Econ 339 or Econ 276, Econ 300 or Econ 361. However we rely on Calculus heavily.
+
+- Partial derivatives
+- Total derivatives
+- Graph functions.
+
+Book: Industrial Organization: Contemporary Theory and Empirical Applications, Pepall,
+Richards and Norman. Any edition.
+  
+
+## Classroom behavior {.smaller}
+
+Class attendance
+
+> - Up to you (you're grown-ups).
+> - Don't feel like sitting in class? Please don't show up!
+> - I post my notes almost every class.
+
+
+Gadgets, gizmos and gimmicks
+
+> - Laptops, tablets phones are not to be used in class.
+    - Exception: in-class activities.
+> - Cellphones should be put into silent mode.
+    - I have had very good comments about this policy.
+    
+
+## Course outline {.smaller}
+
+
+<div class="columns-2">
+
+- All about monopolies
+    - Natural
+    - Multiplant
+    - Price discrimination.
+    
+
+- Game theory basics
+   - static games
+   - dominated strategies
+   - Nash equilibrium
+  
+<br>
+<br>
+<br>
+
+- Strategic interaction
+    - Cournot
+    - Bertrand
+    - Stackelberg
+    - Hotelling
+    - Salop
+  
+
+- Collusion and mergers
+    - Horizontal mergers
+    - Vertical mergers
+    - Famous cases
+
+</div>
+
+
+
+## Grading {.smaller}
+
+There will be 1,000 points distributed among 3 midterms like so:
+
+<center>
+
+```{r echo=F}
+library(htmlTable)
+points <- data.frame(matrix(,nrow = 3,ncol = 2))
+dates <- c("2/18/16","3/24/16","4/28/16")
+points[,1] <- c(250,350,400)
+points[,2] <- dates
+rownames(points) <- c("First", "Second","Third")
+colnames(points) <- c("Points", "Dates")
+htmlTable(points)
+```
+
+</center>
+
+<br>
+
+There will be **no make-up exams**. If you miss a midterm you have to take a comprehensive final (5/10/16)
+
+
+## Academic dishonesty
+
+> - Cheating will not be tolerated.
+> - An attempt at cheating will be treated like cheating.
+    - Ethically speaking, there is no difference between failing at cheating and succeeding at it.
+    - Any student deemed to be academically dishonest will receive a failing grade and be recommended for the Academic Integrity Workshop.
+
+
+## Next Tuesday
+
+NO CLASS!! 
+
+
+# Background
+
+## Equi-marginal principle {.smaller}
+
+Most of the work in economics consists of optimizing stuff:
+
+> - minimizing costs
+> - maximizing profits
+> - maximizing social welfare
+
+Rules to optimize often recommend that some *things* be equal in the margin:
+
+> - *price = marginal cost* (max profits in perfect competition)
+> - *private cost = social cost* (optimal level of abatement pollution)
+> - *marginal revenue = marginal cost* (max profits for a monopoly)
+
+
+## Sunk cost and fixed costs {.smaller}
+
+To start producing, firms incur some start-up cost:
+
+- R&D (GoPro)
+- license (brewery)
+- marketing (pizza joint)
+
+When these expenditures have **zero oportunity** cost we call them *sunk costs*.
+
+
+Example: Suppose your lease an office for a year. You paint it and buy some new cool furniture.
+
+- You could sublease or use the office for another purpose.
+- You could re-sell the furniture.
+- There is nothing you can do with the dry paint.
+
+
+## The competitive equilibrium {.smaller}
+
+Assumptions
+
+- a **large** number of producers and consumers
+- the producers produce a **homogeneous** good
+- **no barriers** to entry or exit
+- information is **public** and **common knowledge**
+
+$$\max_q\Pi(q)=\max_qPq-C(q)$$
+
+$P$ is not a function of quantity, $q$. The first-order condition for the problem is
+
+$$\frac{\partial\Pi}{\partial q}=0$$
+$$p-\frac{\partial C(q)}{\partial q}=0$$
+
+
+
+## Social Welfare {.smaller}
+
+Welfare is a measure of the overall value created in a market.
+
+ > - It is computed as the sum of two entities: consumer surplus and producer surplus.
+
+
+### Consumer Surplus
+is the sum of the differences between willingness to pay and price paid over all units bought. 
+
+>- Formally is the area under the demand curve and above the price.
+
+
+
+### Producer Surplus
+is the sum of the differences of the marginal profit, $P-MC$, across all units sold. 
+
+
+
+Welfare is maximized when the market is competitive.
+
+
+
+# See you next thursday

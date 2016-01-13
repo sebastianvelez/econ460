@@ -1,5 +1,9 @@
-# Class outline
-## Presentation
+---
+title: "Class 0"
+author: "Juan Vélez"
+date: "January 13, 2016"
+output: html_document
+---
 
 ## The equi-marginal principle (EMP)
 Most of the work in economics consists of optimizing stuff: minimizing costs, maximizing profits, maximizing welfare... Across all those problems and some others arise a general principle. Namely, when optimizing some *things* (what things would depend on the problem at hand) in the margin would be equal. Try and keep track of where EMP shows up. It makes understanding things easier. Instead of memorizing 40 formulas, just learn how to use one powerful principle.
@@ -25,10 +29,10 @@ $$AP_l=\frac q l=\frac {F(k,l)}{l}$$
 
 Relationship between AP and MP
 : The average product of an input is maximum when it is equal to the marginal product
-> *proof*
-> $AP_k=\frac {F(k,l)} k$
->taking derivatives with respect to *k* on both sides
->$$\frac{\partial AP_k}{ \partial k}=\frac{\frac{\partial F(k,l)}{\partial k}k-F(k,l)}{ k^2}$$
+ *proof*
+ $AP_k=\frac {F(k,l)} k$
+taking derivatives with respect to *k* on both sides
+$$\frac{\partial AP_k}{ \partial k}=\frac{\frac{\partial F(k,l)}{\partial k}k-F(k,l)}{ k^2}$$
 Because we are looking for the point where the average product is maximized we have $\frac{\partial AP_k}{ \partial k}=0$, so
 $$0=\frac{\frac{\partial F(k,l)}{\partial k}k-F(k,l)}{ k^2}$$
 $$0=\frac{\partial F(k,l)}{\partial k}k-F(k,l)$$
@@ -81,17 +85,18 @@ $$C(q)=wl^*(w,r,\bar q)+k^*(w,r,\bar q)$$
 
 Relationship between average and marginal  cost
 : Average cost is minimized where MC = AC
-> *proof*
-> $AC(q)=\frac{C(q)}{q}$
-> taking partial on both sides with respect to $q$ we get
-> $$\frac{\partial AC(q)}{\partial q}=\frac{\frac{\partial C(q)}{\partial q}q-C(q)}{ q^2}$$
-> Since we are at the mininimun this partial has to equal zero:
-> $$0=\frac{\frac{\partial C(q)}{\partial q}q-C(q)}{ q^2}$$
-> $$0=\frac{\partial C(q)}{\partial q}q-C(q)$$
->  $$\frac{\partial C(q)}{\partial q}q=C(q)$$
->   $$\frac{\partial C(q)}{\partial q}=\frac{C(q)}{q}$$
->   *QED*
 
+
+*proof*
+$AC(q)=\frac{C(q)}{q}$
+taking partial on both sides with respect to $q$ we get
+$$\frac{\partial AC(q)}{\partial q}=\frac{\frac{\partial C(q)}{\partial q}q-C(q)}{ q^2}$$
+Since we are at the mininimun this partial has to equal zero:
+$$0=\frac{\frac{\partial C(q)}{\partial q}q-C(q)}{ q^2}$$
+$$0=\frac{\partial C(q)}{\partial q}q-C(q)$$
+ $$\frac{\partial C(q)}{\partial q}q=C(q)$$
+  $$\frac{\partial C(q)}{\partial q}=\frac{C(q)}{q}$$
+  *QED*
 
 ##Economies of scale
 The cost equivalent of returns to scale. It captures the idea that duplicating production does not duplicate costs. Formally: $C(\lambda q)<\lambda C(q)$ (The verbal definition above used $\lambda=2$).

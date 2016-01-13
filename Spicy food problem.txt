@@ -1,16 +1,16 @@
 
-#Spicy food
+# Spicy food
 
-Suppose all restaurants are diferentiated in only one respect: how spicy the food is. Some people like a lot of spice, some like none, while other people have a preferences for levels in between these two extremes. Let's say spiciness is measured by a variable called **x**, such that non-spicy is measured as **x = 0** and extreme spice is measured by **x = 1**. So a restaurant is defined by its **x** value, as are consumers ideal restaurants. There are **100 people** deciding which restaurant to attend. We assume these people have tastes for spice such that their ideal points are uniformly distributed over the interval [0; 1].
+Suppose all restaurants are differentiated in only one respect: how spicy the food is. Some people like a lot of spice, some like none, while other people have a preferences for levels in between these two extremes. Let's say spiciness is measured by a variable called **x**, such that non-spicy is measured as **x = 0** and extreme spice is measured by **x = 1**. So a restaurant is defined by its **x** value, as are consumers ideal restaurants. There are **100 people** deciding which restaurant to attend. We assume these people have tastes for spice such that their ideal points are uniformly distributed over the interval [0; 1].
 
 If consumer **i**, with ideal spice-level given by $x_i$, $x_i$ went to dinner at restaurant **j** with spice-level $x_j$ , and the price for the meal is $p_j$, then their net utility would be given by
 
->$u_{ij} = 30 -p_j-|x_j-x_i|10$
+ $u_{ij} = 30 -p_j-|x_j-x_i|10$
 
 Juanito's food is extremely spicy at $x_J=1$ while Paul's is not spicy at all at $x_P=0$.
 
 
-1.  Suppose $P_J=\$15$ and  $P_P=\$18$. What is the demand for each restaurant. 
+1.  Suppose $P_J=\$15$ and  $P_P=\$18$. What is the demand for each restaurant.
 - Find the ideal spiciness of the person who is indifferent between visiting either restaurant.
 - How many people will go to each restaurant at these prices?
-2. Are the prices in 1 optimal? If they are not find the optimal prices that the firms should charge. 
+2. Are the prices in 1 optimal? If they are not find the optimal prices that the firms should charge.
